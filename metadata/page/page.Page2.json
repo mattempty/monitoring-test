@@ -1,0 +1,47 @@
+{
+  "_id": "page.Page2",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.Page2--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Asian or Asian British",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__7",
+          "_type": "radio",
+          "label": "White",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Black African, Black Caribbean or Black British?",
+          "value": "auto_value__8"
+        },
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Mixed",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__10",
+          "_type": "radio",
+          "label": "from another ethnic group",
+          "value": "auto_value__10"
+        }
+      ],
+      "legend": "Are you?",
+      "name": "auto_name__5"
+    }
+  ],
+  "heading": "Ethnicity",
+  "lede": "Select Ethnic Group",
+  "url": "Page2"
+}
