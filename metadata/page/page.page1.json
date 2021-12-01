@@ -1,8 +1,21 @@
 {
   "_id": "page.page1",
   "_type": "page.form",
-  "body": "You do not have to fill out this part of the form if you do not want to.\r\n\r\nThe people who review your application will not see this part of the form.\r\n\r\n",
+  "body": "These questions are optional and will not affect your application.\r\n\r\nThe people who review your application will not see your answers.\r\n\r\n",
   "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fields": true,
+      "_id": "page.page1--date.auto_name__7",
+      "_type": "date",
+      "legend": "What is your date of birth? (optional)",
+      "name": "auto_name__7",
+      "validation": {
+        "required": false
+      }
+    },
     {
       "$component": true,
       "$control": true,
@@ -29,12 +42,19 @@
           "value": "auto_value__2"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.page1--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.page1--radios.auto_name__1--radio.auto_value__3--text.auto_name__4",
             "_type": "text",
-            "label": "Please add",
+            "label": "How would you describe your gender identity?",
             "name": "auto_name__4",
             "validation": {
               "required": false
@@ -44,66 +64,78 @@
           "value": "auto_value__3"
         }
       ],
-      "legend": "What is your gender identity?",
-      "name": "auto_name__1"
-    },
-    {
-      "_id": "page.page1--text.auto_name__2",
-      "_type": "text",
-      "label": "Self describe",
-      "name": "auto_name__2",
+      "legend": "What is your gender identity? (optional)",
+      "name": "auto_name__1",
       "validation": {
         "required": false
       }
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.page1--radios.auto_name__3",
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.page1--radios.auto_name__3--radio.auto_value__4",
           "_type": "radio",
           "label": "Yes",
           "value": "auto_value__4"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.page1--radios.auto_name__3--radio.auto_value__5",
           "_type": "radio",
           "label": "No",
           "value": "auto_value__5"
         }
       ],
-      "legend": "Do you have a disability?",
-      "name": "auto_name__3"
+      "legend": "Do you have a disability? (optional)",
+      "name": "auto_name__3",
+      "validation": {
+        "required": false
+      }
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.page1--radios.auto_name__6",
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.page1--radios.auto_name__6--radio.auto_value__11",
           "_type": "radio",
           "label": "Yes",
           "value": "auto_value__11"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.page1--radios.auto_name__6--radio.auto_value__12",
           "_type": "radio",
           "label": "No",
           "value": "auto_value__12"
         }
       ],
-      "legend": "Are you a foreign national?",
-      "name": "auto_name__6"
-    },
-    {
-      "_id": "page.page1--date.auto_name__7",
-      "_type": "date",
-      "legend": "Date of birth",
-      "name": "auto_name__7"
+      "legend": "Are you a foreign national? (optional)",
+      "name": "auto_name__6",
+      "validation": {
+        "required": false
+      }
     }
   ],
-  "heading": "Monitoring Questions",
+  "heading": "Monitoring questions",
   "lede": "We use this part of the service to make sure we are treating everyone equally and fairly.  ",
   "sectionHeading": "Diversity monitoring",
   "url": "page1"

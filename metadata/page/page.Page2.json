@@ -1,47 +1,75 @@
 {
   "_id": "page.Page2",
   "_type": "page.form",
+  "body": "These questions are optional and will not affect your application.\r\n\r\nThe people who review your application will not see your answers.",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.Page2--radios.auto_name__5",
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.Page2--radios.auto_name__5--radio.auto_value__6",
           "_type": "radio",
-          "label": "Asian or Asian British",
+          "label": "White",
           "value": "auto_value__6"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.Page2--radios.auto_name__5--radio.auto_value__7",
           "_type": "radio",
-          "label": "White",
+          "label": "Mixed or multiple ethnic groups",
           "value": "auto_value__7"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.Page2--radios.auto_name__5--radio.auto_value__8",
           "_type": "radio",
-          "label": "Black African, Black Caribbean or Black British?",
+          "label": "Asian or Asian British",
           "value": "auto_value__8"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.Page2--radios.auto_name__5--radio.auto_value__9",
           "_type": "radio",
-          "label": "Mixed",
+          "label": "Black, African, Caribbean or Black British",
           "value": "auto_value__9"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.Page2--radios.auto_name__5--radio.auto_value__10",
           "_type": "radio",
-          "label": "from another ethnic group",
+          "label": "Other ethnic group",
           "value": "auto_value__10"
+        },
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__32",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__32"
         }
       ],
-      "legend": "Are you?",
-      "name": "auto_name__5"
+      "legend": "What is your ethnic group? (optional)",
+      "name": "auto_name__5",
+      "validation": {
+        "required": false
+      }
     }
   ],
-  "heading": "Ethnicity",
-  "lede": "Select Ethnic Group",
+  "heading": "Monitoring questions",
+  "sectionHeading": "Diversity monitoring",
   "url": "Page2"
 }

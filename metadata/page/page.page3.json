@@ -1,7 +1,118 @@
 {
   "_id": "page.page3",
   "_type": "page.form",
+  "body": "These questions are optional and will not affect your application.\r\n\r\nThe people who review your application will not see your answers.",
   "components": [
+    {
+      "_id": "page.page3--radios.auto_name__10",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.page3--radios.auto_name__10--radio.auto_value__18",
+          "_type": "radio",
+          "label": "English, Welsh, Scottish, Northern Irish or British",
+          "value": "auto_value__18"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__10--radio.auto_value__19",
+          "_type": "radio",
+          "label": "Irish",
+          "value": "auto_value__19"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__10--radio.auto_value__20",
+          "_type": "radio",
+          "label": "Gypsy or Irish Traveller",
+          "value": "auto_value__20"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__10--radio.auto_value__21",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.page3--radios.auto_name__10--radio.auto_value__21--text.auto_name__2",
+            "_type": "text",
+            "label": "How would you describe your background? (optional)",
+            "name": "auto_name__2",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Any other White background",
+          "value": "auto_value__21"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__10--radio.auto_value__33",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__33"
+        }
+      ],
+      "legend": "Which of the following best describes your White background? (optional)",
+      "name": "auto_name__10",
+      "show": {
+        "identifier": "auto_name__5",
+        "operator": "is",
+        "value": "auto_value__7"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.page3--radios.auto_name__12",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.page3--radios.auto_name__12--radio.auto_value__25",
+          "_type": "radio",
+          "label": "White and Black Caribbean",
+          "value": "auto_value__25"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__12--radio.auto_value__26",
+          "_type": "radio",
+          "label": "White and Black African",
+          "value": "auto_value__26"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__12--radio.auto_value__27",
+          "_type": "radio",
+          "label": "White and Asian",
+          "value": "auto_value__27"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__12--radio.auto_value__28",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.page3--radios.auto_name__12--radio.auto_value__28--text.auto_name__14",
+            "_type": "text",
+            "label": "How would you describe your background? (optional)",
+            "name": "auto_name__14",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Any other Mixed or Multiple ethnic background",
+          "value": "auto_value__28"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__12--radio.auto_value__34",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__34"
+        }
+      ],
+      "legend": "Which of the following best describes your Mixed or Multiple ethnic groups background? (optional)",
+      "name": "auto_name__12",
+      "show": {
+        "identifier": "auto_name__5",
+        "operator": "is",
+        "value": "auto_value__9"
+      },
+      "validation": {
+        "required": false
+      }
+    },
     {
       "_id": "page.page3--radios.auto_name__8",
       "_type": "radios",
@@ -36,56 +147,31 @@
           "conditionalComponent": {
             "_id": "page.page3--radios.auto_name__8--radio.auto_value__17--text.auto_name__9",
             "_type": "text",
-            "label": "Please add",
-            "name": "auto_name__9"
+            "label": "How would you describe your background? (optional)",
+            "name": "auto_name__9",
+            "validation": {
+              "required": false
+            }
           },
-          "label": "Other",
+          "label": "Any other Asian background",
           "value": "auto_value__17"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__8--radio.auto_value__31",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__31"
         }
       ],
-      "legend": "Asian or Asian British",
+      "legend": "Which of the following best describes your Asian or Asian British background? (optional)",
       "name": "auto_name__8",
       "show": {
         "identifier": "auto_name__5",
         "operator": "is",
         "value": "auto_value__6"
-      }
-    },
-    {
-      "_id": "page.page3--radios.auto_name__10",
-      "_type": "radios",
-      "items": [
-        {
-          "_id": "page.page3--radios.auto_name__10--radio.auto_value__18",
-          "_type": "radio",
-          "label": "British",
-          "value": "auto_value__18"
-        },
-        {
-          "_id": "page.page3--radios.auto_name__10--radio.auto_value__19",
-          "_type": "radio",
-          "label": "Irish",
-          "value": "auto_value__19"
-        },
-        {
-          "_id": "page.page3--radios.auto_name__10--radio.auto_value__20",
-          "_type": "radio",
-          "label": "Gypsy/ Traveller",
-          "value": "auto_value__20"
-        },
-        {
-          "_id": "page.page3--radios.auto_name__10--radio.auto_value__21",
-          "_type": "radio",
-          "label": "Other",
-          "value": "auto_value__21"
-        }
-      ],
-      "legend": "White",
-      "name": "auto_name__10",
-      "show": {
-        "identifier": "auto_name__5",
-        "operator": "is",
-        "value": "auto_value__7"
+      },
+      "validation": {
+        "required": false
       }
     },
     {
@@ -95,65 +181,46 @@
         {
           "_id": "page.page3--radios.auto_name__11--radio.auto_value__22",
           "_type": "radio",
-          "label": "Caribbean",
+          "label": "African",
           "value": "auto_value__22"
         },
         {
           "_id": "page.page3--radios.auto_name__11--radio.auto_value__23",
           "_type": "radio",
-          "label": "African",
+          "label": "Caribbean",
           "value": "auto_value__23"
         },
         {
           "_id": "page.page3--radios.auto_name__11--radio.auto_value__24",
           "_type": "radio",
-          "label": "Other",
+          "conditionalComponent": {
+            "_id": "page.page3--radios.auto_name__11--radio.auto_value__24--text.auto_name__15",
+            "_type": "text",
+            "label": "How would you describe your background? (optional)",
+            "name": "auto_name__15",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Any other Black, African or Caribbean background",
           "value": "auto_value__24"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__11--radio.auto_value__35",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__35"
         }
       ],
-      "legend": "Black African, Black Caribbean or Black British",
+      "legend": "Which of the following best describes your Black, African, Caribbean or Black British background? (optional)",
       "name": "auto_name__11",
       "show": {
         "identifier": "auto_name__5",
         "operator": "is",
         "value": "auto_value__8"
-      }
-    },
-    {
-      "_id": "page.page3--radios.auto_name__12",
-      "_type": "radios",
-      "items": [
-        {
-          "_id": "page.page3--radios.auto_name__12--radio.auto_value__25",
-          "_type": "radio",
-          "label": "White and Black Caribbean",
-          "value": "auto_value__25"
-        },
-        {
-          "_id": "page.page3--radios.auto_name__12--radio.auto_value__26",
-          "_type": "radio",
-          "label": "White and Black African",
-          "value": "auto_value__26"
-        },
-        {
-          "_id": "page.page3--radios.auto_name__12--radio.auto_value__27",
-          "_type": "radio",
-          "label": "White and Asian",
-          "value": "auto_value__27"
-        },
-        {
-          "_id": "page.page3--radios.auto_name__12--radio.auto_value__28",
-          "_type": "radio",
-          "label": "Other",
-          "value": "auto_value__28"
-        }
-      ],
-      "legend": "Mixed",
-      "name": "auto_name__12",
-      "show": {
-        "identifier": "auto_name__5",
-        "operator": "is",
-        "value": "auto_value__9"
+      },
+      "validation": {
+        "required": false
       }
     },
     {
@@ -169,19 +236,38 @@
         {
           "_id": "page.page3--radios.auto_name__13--radio.auto_value__30",
           "_type": "radio",
-          "label": "Other",
+          "conditionalComponent": {
+            "_id": "page.page3--radios.auto_name__13--radio.auto_value__30--text.auto_name__16",
+            "_type": "text",
+            "label": "How would you describe your background? (optional)",
+            "name": "auto_name__16",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Any other ethnic group",
           "value": "auto_value__30"
+        },
+        {
+          "_id": "page.page3--radios.auto_name__13--radio.auto_value__36",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__36"
         }
       ],
-      "legend": "Another ethnic group",
+      "legend": "Which of the following best describes your background? (optional)",
       "name": "auto_name__13",
       "show": {
         "identifier": "auto_name__5",
         "operator": "is",
         "value": "auto_value__10"
+      },
+      "validation": {
+        "required": false
       }
     }
   ],
-  "heading": "Page 3 - Ethnicity",
+  "heading": "Monitoring questions",
+  "sectionHeading": "Diversity monitoring",
   "url": "page3"
 }
