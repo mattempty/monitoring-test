@@ -1,7 +1,7 @@
 {
   "_id": "page.Page2",
   "_type": "page.form",
-  "body": "These questions are optional and will not affect your application.\r\n\r\nThe people who review your application will not see your answers.",
+  "body": "",
   "components": [
     {
       "$component": true,
@@ -62,14 +62,19 @@
           "value": "auto_value__32"
         }
       ],
-      "legend": "What is your ethnic group? (optional)",
+      "legend": "What is your ethnic group?",
       "name": "auto_name__5",
       "validation": {
-        "required": false
+        "required": true
       }
     }
   ],
   "heading": "Monitoring questions",
   "sectionHeading": "Diversity monitoring",
+  "show": {
+    "identifier": "auto_name__17",
+    "operator": "is",
+    "value": "auto_value__37"
+  },
   "url": "Page2"
 }

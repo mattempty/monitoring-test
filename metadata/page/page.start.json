@@ -5,6 +5,7 @@
   "heading": "This is your start page heading",
   "lede": "This is your start page first paragraph. You can only have one paragraph here.",
   "steps": [
+    "page.monitoring-opty",
     "page.page1",
     "page.Page2",
     "page.page3",
