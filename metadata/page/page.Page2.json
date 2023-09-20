@@ -1,0 +1,80 @@
+{
+  "_id": "page.Page2",
+  "_type": "page.form",
+  "body": "",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.Page2--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__6",
+          "_type": "radio",
+          "label": "White",
+          "value": "auto_value__6"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Mixed or multiple ethnic groups",
+          "value": "auto_value__7"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Asian or Asian British",
+          "value": "auto_value__8"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Black, African, Caribbean or Black British",
+          "value": "auto_value__9"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Other ethnic group",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.Page2--radios.auto_name__5--radio.auto_value__32",
+          "_type": "radio",
+          "label": "Prefer not to say",
+          "value": "auto_value__32"
+        }
+      ],
+      "legend": "What is your ethnic group?",
+      "name": "auto_name__5",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "heading": "Monitoring questions",
+  "sectionHeading": "Diversity monitoring",
+  "show": {
+    "identifier": "auto_name__17",
+    "operator": "is",
+    "value": "auto_value__37"
+  },
+  "url": "Page2"
+}
